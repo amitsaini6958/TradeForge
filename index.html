@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinSwitch</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+
+    <header>
+        <h1>TradeForge</h1>
+        <button id="connectWallet">Connect Your Wallet</button>
+    </header>
+
+    <main>
+        <section class="crypto-card" id="bitcoin">
+            <h2>Bitcoin (BTC)</h2>
+            <p>Price: $45,678.90</p>
+            <p>52 Week High: $50,000.00</p>
+            <p>52 Week Low: $30,000.00</p>
+            <a href="https://coinmarketcap.com/currencies/bitcoin/"><button class="buy-btn" onclick="buy('bitcoin')">Buy Now</button></a>
+            <a href="https://coinmarketcap.com/currencies/bitcoin/"><button class="sell-btn" onclick="sell('bitcoin')">Sell</button></a>
+        </section>
+
+        <section class="crypto-card" id="ethereum">
+            <h2>Ethereum (ETH)</h2>
+            <p>Price: $3,456.78</p>
+            <p>52 Week High: $3,800.00</p>
+            <p>52 Week Low: $2,500.00</p>
+            <a href="https://coinmarketcap.com/currencies/ethereum/"><button class="buy-btn" onclick="buy('bitcoin')">Buy Now</button></a>
+            <a href="https://coinmarketcap.com/currencies/ethereum/"><button class="sell-btn" onclick="sell('ethereum')">Sell</button></a>
+        </section>
+
+        <section class="crypto-card" id="ripple">
+            <h2>Ripple (XRP)</h2>
+            <p>Price: $1.23</p>
+            <p>52 Week High: $1.50</p>
+            <p>52 Week Low: $1.00</p>
+            <a href="https://coinmarketcap.com/currencies/xrpchain/"><button class="buy-btn" onclick="buy('ripple')">Buy Now</button></a>
+            <a href="https://coinmarketcap.com/currencies/xrpchain/"><button class="sell-btn" onclick="sell('ripple')">Sell</button></a>
+        </section>
+
+        <section class="crypto-card" id="litecoin">
+            <h2>Litecoin (LTC)</h2>
+            <p>Price: $123.45</p>
+            <p>52 Week High: $150.00</p>
+            <p>52 Week Low: $100.00</p>
+            <a href="https://coinmarketcap.com/currencies/litecoin/"><button class="buy-btn" onclick="buy('litecoin')">Buy Now</button></a>
+            <a href="href="https://coinmarketcap.com/currencies/litecoin/"><button class="sell-btn" onclick="sell('litecoin')">Sell</button></a>
+        </section>
+    </main>
+
+    <script src="demo.js"></script>
+</body>
+</html>
